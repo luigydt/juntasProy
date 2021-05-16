@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="JUNTA"   >
+        <menu>
+            <item android:title="CREAR"
+                android:id="@+id/home"
+                android:icon="@drawable/ic_baseline_add_24"
+                >
+            </item>
+            <item android:title="VER"
+                android:id="@+id/verJunta"
+                android:icon="@drawable/ic_baseline_remove_red_eye_24">
+            </item>
+
+        </menu>
+    </item>
+    <item android:title="PARTICIPANTES" >
+        <menu>
+            <item android:title="AÑADIR"
+            android:id="@+id/crearPart"
+            android:icon="@drawable/ic_baseline_add_24">
+            </item>
+
+            <item android:title="VER"
+                android:id="@+id/verParticipantes"
+                android:icon="@drawable/ic_baseline_remove_red_eye_24">
+            </item>
+        </menu>
+    </item>
+    <item android:title="SORTEO">
+        <menu>
+            <item android:title="CREAR"
+                android:id="@+id/crearSorteo"
+                android:icon="@drawable/ic_baseline_add_24">
+
+            </item>
+            <item android:title="REORDENAR"
+                android:id="@+id/modificarPart"
+                android:icon="@drawable/ic_baseline_autorenew_24">
+            </item>
+        </menu>
+    </item>
+
+</menu>
